@@ -64,10 +64,12 @@
 
 当前方案实现较为理想，但也非一蹴而就，中间历经：
 
- Octopress、Hexo、Hugo 各类静态 blog 系统（缺点前文已述） 
+- Octopress、Hexo、Hugo 各类静态 blog 系统（缺点前文已述） 
 
-WordPress 内部也考虑过 markdown 类编辑器实现的 WP-Markdown、PrettyPress（缺点显而易见……） 
 
-WordPress 外部考虑过邮件远程发文、python 程序 Markpress（发文实现相对完美，但无法编辑修改放弃……）、python 程序 PyPoster（功能描述不错，但是安装之后报错无法使用，放弃……） 
+- WordPress 内部也考虑过 markdown 类编辑器实现的 WP-Markdown、PrettyPress（缺点显而易见……） 
+
+
+- WordPress 外部考虑过邮件远程发文、python 程序 Markpress（发文实现相对完美，但无法编辑修改放弃……）、python 程序 PyPoster（功能描述不错，但是安装之后报错无法使用，放弃……） 
 
 记录于此，供有相关需求同学参考
