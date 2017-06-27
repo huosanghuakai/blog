@@ -1,6 +1,6 @@
 # 使用 Mytory Markdown on WordPress 构建 Markdown 发布系统
 
-之前考虑重选 blog 系统，Jekyll on GitHub 方案某些方面堪称完美，但基于各方面的考虑，最终还是选择了 Mytory Markdown on WordPress 方案，记录如下
+之前考虑更换 blog 系统，Jekyll on GitHub 方案某些方面堪称完美，但基于各方面的考虑，最终还是选择了 Mytory Markdown on WordPress 方案，记录如下
 
 ## Jekyll on GitHub 
 
@@ -19,7 +19,7 @@
 - **需要服务器搭建特殊环境** Jekyll 可以托管在 GitHub，这个比较特殊，一方面省去了服务器端的要求，比较省心；另一方面，这种公共的内容提供商面对的河蟹措施都够呛，比较闹心
 
 
-- **渲染需要时间，文件越多处理时间越长** 站点通过渲染 Markdown 文件生成，文章越多展示前的渲染时间越多（未实际体验）
+- **渲染需要时间，文件越多处理时间越长** 站点通过渲染 Markdown 文件生成，文章越多展示前的渲染时间越长（未实际体验）
 
 
 - **站点功能有限，扩展困难**
@@ -50,26 +50,29 @@
 -   **便于扩展** WordPress 插件生态成熟，方便 blog 扩展功能
 -   **便于控制版本** gitHub 副产品，静态 blog 的亮点之二
 
+（Mytory markdown 还有一个 for dropbox 版本，支持在 blog 编辑页面读取 dropbox 内 markdown 文件发布和更新，但不支持访问 blog 页面触发更新，虽然功能稍逊，但因为 dropbox 原生的版本管理功能，对于不写代码或者不习惯使用 github 的用户也是一个不错的选择）
+
 ## Workflowy to Typroa
 
 上面介绍的都是展示端，而输出端个人采用的方案同样是两大神器的组合：
 
- ——Workflowy，梳理思路、整理结构化信息的笔记神器
+- Workflowy，梳理思路、整理结构化信息的笔记神器
 
- ——Typroa，简约、强大、养眼的单窗口 Markdown 编辑神器
 
- 而最赞的，Workflowy export - OPML - Typora import，一篇无须排版的原生 Markdown blog 出炉
+- Typroa，简约、强大、养眼的单窗口 Markdown 编辑神器
+
+ 而最赞的，**Workflowy export - OPML - Typora import**，一篇无须排版的原生 Markdown blog 出炉
 
 ## 趟坑相关
 
 当前方案实现较为理想，但也非一蹴而就，中间历经：
 
-- OctoPress、Hexo、Hugo 各类静态 blog 系统（缺点前文已述） 
+- 各类静态 blog 系统：Octopress、Hexo、Hugo （缺点前文已述） 
 
 
-- WordPress 内部也考虑过 Markdown 类编辑器实现的 WP-Markdown、PrettyPress（缺点显而易见） 
+- （WordPress 内部） Markdown 类编辑器实现的 WP-Markdown、PrettyPress（缺点显而易见） 
 
 
-- WordPress 外部考虑过邮件远程发文、python 程序 MarkPress（发文实现相对完美，但无法编辑修改，放弃……）、python 程序 PyPoster（功能描述不错，但是安装之后报错无法使用，放弃……） 
+- （WordPress 外部）邮件远程发文、python 程序 MarkPress（发文实现相对完美，但无法编辑修改，放弃……）、python 程序 PyPoster（功能描述不错，但是安装之后报错无法使用，放弃……） 
 
 记录于此，供有相关需求同学参考
