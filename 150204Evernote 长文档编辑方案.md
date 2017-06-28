@@ -1,6 +1,6 @@
 #Evernote 长文档编辑方案
 
-**UPDATE**：Typora 出现后，主要使用 Typora 作为 Evernote 的编辑器，详见 http://cloudlet.info/t/384 
+**UPDATE：Typora 出现后，主要使用 Typora 作为 Evernote 的编辑器，详见 [使用 Typora 作为 Evernote 主编辑器](http://cloudlet.info/t/384)**
 
 Evernote 寒碜的排版和不支持 markdown 一直被界面控鄙视，这类问题在处理短内容笔记时还不明显，在长文档编辑的时候就很拉后腿了，经过一段时间的尝试，个人选择 **Evernote （印象笔记）+ Maxiang（马克飞象）+ Sublime_Evnernote** 作为有排版需求的长文档编辑方案，具体按软件介绍：
 
