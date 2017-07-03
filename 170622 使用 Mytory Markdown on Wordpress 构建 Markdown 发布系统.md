@@ -69,12 +69,15 @@
 
 当前方案实现较为理想，但也非一蹴而就，中间历经：
 
-- 各类静态 blog 系统：Octopress、Hexo、Hugo （缺点前文已述） 
+- 各类静态 blog 系统：Octopress、Hexo、Hugo ，缺点前文已述
 
 
-- （WordPress 内部） Markdown 类编辑器实现的 WP-Markdown、PrettyPress（缺点显而易见） 
+- （WordPress 插件） Markdown 类编辑器实现的 WP-Markdown、PrettyPress，缺点显而易见
 
 
-- （WordPress 外部）邮件远程发文、python 程序 MarkPress（发文实现相对完美，但无法编辑修改，放弃……）、python 程序 PyPoster（功能描述不错，但是安装之后报错无法使用，放弃……） 
+- 邮件远程发文，仅能发文，功能太少
+- Windows Live Writer 与 Open Live Writer，发展停滞，原生不支持 markdown，安装插件困难
+- python 程序 MarkPress，发文实现相对完美，但无法编辑修改
+- python 程序 PyPoster，功能描述不错，但是安装之后各种报错，无法使用 
 
 记录于此，供有相关需求同学参考
