@@ -48,9 +48,9 @@
 -   **便于编辑** 修改 Markdown 文件推送，blog 内容即可同步更新
 -   **便于管理** WordPress 内容管理系统完备，且可随时向其他 blog 系统转换
 -   **便于扩展** WordPress 插件生态成熟，方便 blog 扩展功能
--   **便于控制版本** gitHub 副产品，静态 blog 的亮点之二
+-   **便于控制版本** GitHub 副产品，静态 blog 的亮点之二
 
-（Mytory markdown 还有一个 for dropbox 版本，支持在 blog 编辑页面读取 dropbox 内 markdown 文件发布和更新，但不支持访问 blog 页面触发更新，虽然功能稍逊，但因为 dropbox 的强悍版本管理功能，对于不写代码或者不习惯使用 github 的用户也是一个不错的选择）
+（Mytory markdown 还有一个 for dropbox 版本，支持在 blog 编辑页面读取 dropbox 内 Markdown 文件发布和更新，但不支持访问 blog 页面触发更新，虽然功能稍逊，但因为 dropbox 的强悍版本管理功能，对于不写代码或者不习惯使用 GitHub 的用户也是一个不错的选择）
 
 ## Workflowy to Typroa
 
