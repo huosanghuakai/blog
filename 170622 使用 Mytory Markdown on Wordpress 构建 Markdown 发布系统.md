@@ -50,7 +50,7 @@
 -   **便于扩展** WordPress 插件生态成熟，方便 blog 扩展功能
 -   **便于控制版本** gitHub 副产品，静态 blog 的亮点之二
 
-（Mytory markdown 还有一个 for dropbox 版本，支持在 blog 编辑页面读取 dropbox 内 markdown 文件发布和更新，但不支持访问 blog 页面触发更新，虽然功能稍逊，但因为 dropbox 原生的版本管理功能，对于不写代码或者不习惯使用 github 的用户也是一个不错的选择）
+（Mytory markdown 还有一个 for dropbox 版本，支持在 blog 编辑页面读取 dropbox 内 markdown 文件发布和更新，但不支持访问 blog 页面触发更新，虽然功能稍逊，但因为 dropbox 的强悍版本管理功能，对于不写代码或者不习惯使用 github 的用户也是一个不错的选择）
 
 ## Workflowy to Typroa
 
@@ -69,12 +69,15 @@
 
 当前方案实现较为理想，但也非一蹴而就，中间历经：
 
-- 各类静态 blog 系统：Octopress、Hexo、Hugo （缺点前文已述） 
+- 各类静态 blog 系统：Octopress、Hexo、Hugo ，缺点前文已述
 
 
-- （WordPress 内部） Markdown 类编辑器实现的 WP-Markdown、PrettyPress（缺点显而易见） 
+- （WordPress 插件） Markdown 类编辑器实现的 WP-Markdown、PrettyPress，缺点显而易见
 
 
-- （WordPress 外部）邮件远程发文、python 程序 MarkPress（发文实现相对完美，但无法编辑修改，放弃……）、python 程序 PyPoster（功能描述不错，但是安装之后报错无法使用，放弃……） 
+- 邮件远程发文，仅能发文，功能太少
+- Windows Live Writer 与 Open Live Writer，发展停滞，原生不支持 markdown，安装插件困难
+- python 程序 MarkPress，发文实现相对完美，但无法编辑修改
+- python 程序 PyPoster，功能描述不错，但是安装之后各种报错，无法使用 
 
 记录于此，供有相关需求同学参考
