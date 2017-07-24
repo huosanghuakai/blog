@@ -53,6 +53,7 @@ SetTitleMatchMode Regex
 ### ENview Stylus 
 
 ```css
+;ENview Stylus  r0.0.1
 .logo-bar.public-layout,
 .footer.note-footer,
 .footer.wrapper,
