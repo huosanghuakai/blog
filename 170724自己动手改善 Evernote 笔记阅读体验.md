@@ -53,7 +53,7 @@ SetTitleMatchMode Regex
 ### ENview Stylus 
 
 ```css
-;ENview Stylus  r0.0.1
+/* ENview Stylus  r0.0.1 */
 .logo-bar.public-layout,
 .footer.note-footer,
 .footer.wrapper,
@@ -61,10 +61,10 @@ SetTitleMatchMode Regex
     display: none !important
 }
 body {
-    background: url('') center;
+    background: url('') center !important;
 }
 #container.wrapper {
-    box-shadow: 0 0 0 #fff
+    box-shadow: 0 0 0 #fff !important
 }
 .note-content a,.note-content abbr,.note-content acronym,.note-content address,.note-content area,.note-content b,.note-content bdo,.note-content big,.note-content blockquote,.note-content caption,.note-content center,.note-content cite,.note-content code,.note-content col,.note-content colgroup,.note-content dd,.note-content del,.note-content dfn,.note-content div,.note-content dl,.note-content dt,.note-content em,.note-content font,.note-content h3,.note-content h4,.note-content h5,.note-content h6,.note-content hr,.note-content i,.note-content ins,.note-content kbd,.note-content li,.note-content map,.note-content ol,.note-content p,.note-content pre,.note-content q,.note-content s,.note-content samp,.note-content small,.note-content span,.note-content strike,.note-content strong,.note-content sub,.note-content sup,.note-content table,.note-content tbody,.note-content td,.note-content tfoot,.note-content th,.note-content thead,.note-content tr,.note-content tt,.note-content u,.note-content ul {
     line-height: 2.2em !important
