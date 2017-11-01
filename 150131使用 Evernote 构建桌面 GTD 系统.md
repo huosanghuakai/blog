@@ -20,20 +20,10 @@
 
 
 
+>  **笔记本**  0.stuff  1.actions  2.project  3.info  4.plan  5.waitting  6.someday  7.material  8.refining  9.archive
 
-|    笔记本     |    标签    |
-| :--------: | :------: |
-|  0.stuff   |  1.work  |
-| 1.actions  | 2.office |
-| 2.project  |  3.home  |
-|   3.info   |  4.out   |
-|   4.plan   |  5.ego   |
-| 5.waitting |  6.logo  |
-| 6.someday  |  7.dolo  |
-| 7.material |  8.colo  |
-| 8.refining |  9.live  |
-| 9.archive  |          |
 
+> **标签**  1.work  2.office  3.home  4.out  5.ego  6.logo  7.dolo  8.colo  9.live
 
 笔记本系统在 GTD 系统的清单（事宜向）之外增加了 material （素材）refining （提炼）以及 archive （存档） 三个资料向的笔记本。
 
