@@ -1,4 +1,4 @@
-# MacType 简易上手指南
+# Windows 字体美化神器 MacType 简易上手指南
 
 > **环境** 桌面 Winows 7，浏览器 Centbrowser
 >
