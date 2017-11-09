@@ -80,7 +80,7 @@ GnuCash 提供了「基本分类账」、「自动拆分分类账」和「交易
 
 ###修改界面语言
 
-在 `\gnucash\etc\gnucash\environment` 任意位置中添加 
+在 `\\gnucash\\etc\\gnucash\\environment` 任意位置中添加 
 
 ```
 LANG=ll_LL
