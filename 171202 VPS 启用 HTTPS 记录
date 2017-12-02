@@ -44,7 +44,7 @@ sudo certbot --nginx -d cloudlet.info #注意修改域名
 
 ### 开启 http/2
 
-继续编辑站点 nginx 配置，将 ```listen 443 ssl; ```修改为``` listen 443 ssl http2;```
+继续编辑站点 nginx 配置，将 ```listen 443 ssl; ``` 修改为 ``` listen 443 ssl http2;```
 
 ### 重启 nginx 使修改生效
 
