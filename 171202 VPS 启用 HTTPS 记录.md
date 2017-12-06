@@ -38,7 +38,7 @@ sudo apt-get install python-certbot-nginx
 sudo certbot --nginx -d cloudlet.info #注意修改域名
 ```
 
- 执行后选择2 Redirect http 跳转 https 实际可能选择后未生效，可手动修改相应站点 nginx 配置，反注释 \# Redirect non-https traffic to https 部分代码（新手提示，不要注释掉 \# Redirect non-https traffic to https 这里的 \# 了……），建议修改 nginx 配置前备份（或者全部操作前镜像 VPS）
+ 执行后选择2 Redirect http 跳转 https 实际可能选择后未生效，可手动修改相应站点 nginx 配置，反注释 \# Redirect non-https traffic to https 部分代码（新手提示，不要反注释掉 \# Redirect non-https traffic to https 这里的 \# 了……），建议修改 nginx 配置前备份（或者全部操作前镜像 VPS）
 
 （只需要提供域名，certbot 就会自动侦测站点 nginx 配置文件并自动修改，不需要手动选择处理，官方指南上域名都不用提供，未测试）
 
@@ -46,7 +46,7 @@ sudo certbot --nginx -d cloudlet.info #注意修改域名
 
 继续编辑站点 nginx 配置，将 ```listen 443 ssl; ``` 修改为 ``` listen 443 ssl http2;```
 
-（注意，某些杀毒软件如 ESET NOD32 Antivirus 启用 https 检查后会使用自己的证书替换站点证书，并导致相关页面 http 协议变为 1.1。Chrome 可在 Developer Tools - Security - View certificate 中查看当前页面使用证书）
+（注意，某些杀毒软件如 ESET NOD32 Antivirus 启用 https 检查后会使用自己的证书替换站点证书，并导致相关页面 http 协议变为 1.1 。Chrome 可在 Developer Tools - Security - View certificate 中查看当前页面使用证书）
 
 ### 重启 nginx 使修改生效
 
