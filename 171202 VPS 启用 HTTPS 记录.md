@@ -12,7 +12,7 @@
 
 ### 允许 https 通过防火墙
 
-```shell
+```
 sudo ufw allow 'Nginx Full'
 sudo ufw delete allow 'Nginx HTTP'
 ```
@@ -21,20 +21,20 @@ sudo ufw delete allow 'Nginx HTTP'
 
 ### 添加 Package Repository
 
-```shell
+```
 sudo add-apt-repository ppa:certbot/certbot 
 ```
 
 ### 安装 Certbot 的 Nginx Package
 
-```shell
+```
 sudo apt-get update 
 sudo apt-get install python-certbot-nginx
 ```
 
 ### 签发证书
 
-```shell
+```
 sudo certbot --nginx -d cloudlet.info #注意修改域名
 ```
 
@@ -46,9 +46,11 @@ sudo certbot --nginx -d cloudlet.info #注意修改域名
 
 继续编辑站点 nginx 配置，将 ```listen 443 ssl; ``` 修改为 ``` listen 443 ssl http2;```
 
+（注意，某些杀毒软件如 ESET NOD32 Antivirus 启用 https 检查后会使用自己的证书替换站点证书，并导致相关页面 http 协议变为 1.1。Chrome 可在 Developer Tools - Security - View certificate 中查看当前页面使用证书）
+
 ### 重启 nginx 使修改生效
 
-```shell
+```
 sudo service nginx restart 
 ```
 
