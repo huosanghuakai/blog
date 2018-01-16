@@ -32,7 +32,7 @@
 ### 功能实现
 
 -   首先要把 Markdown 文件推送至 gitHub（这步两者差不多）
--   获得文件在 gitHub 中 raw 的链接地址（这步略麻烦）
+-   ~~获得文件在 gitHub 中 raw 的链接地址（这步略麻烦）~~（这步其实还算简单，同一 repo 中的不同文件 raw 路径是基本一致的，网址前缀加上 Markdown 文件完整文件名即可，中文不影响，不需要在 github 中去查询文件 raw 的具体地址）
 -   在 WordPress 中新建 blog，设置分类、标签等需要的参数（这步比较麻烦）
 -   填入 文件链接地址，发布
 -   如果仅止于此，那么 Mytory Markdown 只不过是又一款中规中矩的 Markdown 插件，但实际上……修改 Markdown 文件推送后，刷新你的 blog 页面，没错，WordPress 中的内容自动更新了
@@ -63,7 +63,7 @@
 
 
 
- 而最赞的，**Workflowy export - OPML - Typora import**，一篇无须排版的原生 Markdown blog 出炉
+ 而最赞的，**Workflowy export - OPML - Typora import**，一篇无须再排版的原生 Markdown blog 直接出炉
 
 ## 趟坑相关
 
