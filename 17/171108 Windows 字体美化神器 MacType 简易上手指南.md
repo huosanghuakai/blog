@@ -42,7 +42,7 @@
 
 例如设置 MacType 后网易云音乐出现「云音乐进程崩溃，程序将终止运行」问题，对 cloudmusic.exe 设置「不对此进程替换字体」后即可解决。
 
-也可以直接在配置文件（如 \MacType\\ini\\Believe.ini）中的 \`\[UnloadDll\]\` 部分添加进程名（如 cloudmusic.exe）实现同样的效果。（建议单独复制一份 Believe.ini 使用，方便修改和复用，也不会因软件重装等情况被覆盖）
+也可以直接在配置文件（如 `\MacType\\ini\\Believe.ini`）中的 \`\[UnloadDll\]\` 部分添加进程名（如 cloudmusic.exe）实现同样的效果。（建议单独复制一份 Believe.ini 使用，方便修改和复用，也不会因软件重装等情况被覆盖）
 
 ### 还原软件替换字体
 
