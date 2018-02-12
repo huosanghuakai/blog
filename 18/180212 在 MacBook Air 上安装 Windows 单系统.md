@@ -14,9 +14,9 @@ U 盘需已定制常规 Windows 启动工具（带 Win8 以上 PE、DiskGenius�
 
 Win7 官方安装文件未集成 USB3 驱动，需额外添加（否则 Windows 安装会因为键盘和触控板失效无法进行）
 
-在其他电脑（似乎必须，后面用到的 dism 命令需要完整的 Win7 以上系统支持，PE 不行）新建任意文件夹（假定为 `D:\fix\`），在其中新建 usb3 和 mount 文件夹（名称涉及后续命令）。
+在其他电脑（似乎必须，后面用到的 dism 命令需要完整的 Win7 以上系统支持，PE 不行）新建任意文件夹（假定为 `D:\\fix`），在其中新建 usb3 和 mount 文件夹（名称涉及后续命令）。
 
-将 Boot Camp 文件夹中的`\$WinPEDriver\$\IntelxHCISetup\Drivers\xHCI\Win7\x64\` 和`\$WinPEDriver$\IntelxHCISetup\Drivers\HCSwitch\Win7\x64\` 下的全部文件复制至 usb3 文件夹。
+将 Boot Camp 文件夹中的`\\$WinPEDriver\\$\\IntelxHCISetup\\Drivers\\xHCI\\Win7\\x64\\` 和`\\$WinPEDriver$\\IntelxHCISetup\\Drivers\\HCSwitch\\Win7\\x64\\` 下的全部文件复制至 usb3 文件夹。
 
 将系统安装文件（ISO 可以使用 WinRar 解压）内 sources 下的 install.wim 和 boot.wim 复制到 fix 文件夹。
 
@@ -31,24 +31,23 @@ cd fix
 
 dism /mount-wim /wimfile:boot.wim /index:2 /mountdir:mount
 
-dism /image:mount /add-driver /driver:usb3\iusb3hub.inf
+dism /image:mount /add-driver /driver:usb3\\iusb3hub.inf
 
-dism /image:mount /add-driver /driver:usb3\iusb3xhc.inf
+dism /image:mount /add-driver /driver:usb3\\iusb3xhc.inf
 
-dism /image:mount /add-driver /driver:usb3\iusb3hcs.inf
+dism /image:mount /add-driver /driver:usb3\\iusb3hcs.inf
 
 dism /unmount-wim /mountdir:mount /commit
 
 dism /mount-wim /wimfile:install.wim /index:4 /mountdir:mount
 
-dism /image:mount /add-driver /driver:usb3\iusb3hub.inf
+dism /image:mount /add-driver /driver:usb3\\iusb3hub.inf
 
-dism /image:mount /add-driver /driver:usb3\iusb3xhc.inf
+dism /image:mount /add-driver /driver:usb3\\iusb3xhc.inf
 
-dism /image:mount /add-driver /driver:usb3\iusb3hcs.inf
+dism /image:mount /add-driver /driver:usb3\\iusb3hcs.inf
 
 dism /unmount-wim /mountdir:mount /commit
-
 ```
 
 成功运行所有命令后，将 fix 下新生成的 install.wim 和 boot.wim 和其他系统安装文件一起复制到 U 盘任意文件夹备用。
