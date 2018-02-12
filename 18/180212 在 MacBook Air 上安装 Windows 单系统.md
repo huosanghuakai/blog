@@ -2,19 +2,17 @@
 
 需求略囧，不过受人之托，忠人之事……此类操作网上教程雷同的很多，但有些地方说的不大清楚，折腾完毕顺便记录
 
-## 使用命令行集成 USB3 驱动
+## 准备启动 U 盘 
 
-Win7 官方安装文件未集成 USB3 驱动，需额外添加（不添加似乎会导致键盘和触控板失效卡在 Windows 安装界面）
+U 盘需已定制常规 Windows 启动工具（带 Win8 以上 PE、DiskGenius、Windows 安装器），另剩余可用空间 6G 左右，以储存系统安装文件和 Boot Camp 安装文件。
 
-### 准备 U 盘
-
-U 盘需已定制常规 Windows 启动工具（带 Win8 以上 PE、DiskGenius、Windows 安装器），另剩余可用空间 6G 左右，储存系统安装文件和 Boot Camp 安装文件。
-
-### 下载 Boot Camp
+## 下载 Boot Camp
 
 在 [官方页面]( https://support.apple.com/zh-cn/boot-camp) 下载对应型号的 Boot Camp 解压至 U 盘备用（注意选择目标系统后查询兼容性表格，确认笔记本型号与目标系统兼容，例如本文型号为「 13 英寸，2013 年中」，可以安装 Windows7 64 位）
 
-### 准备处理文件
+## 准备待处理文件
+
+Win7 官方安装文件未集成 USB3 驱动，需额外添加（不添加似乎会导致键盘和触控板失效卡在 Windows 安装界面）
 
 在其他电脑（似乎必须，后面用到的 dism 命令需要完整的 Win7 以上系统支持，PE 不行）新建任意文件夹（假定为 `D:\fix\`），在其中新建 usb3 和 mount 文件夹（名称涉及后续命令）。
 
@@ -22,7 +20,7 @@ U 盘需已定制常规 Windows 启动工具（带 Win8 以上 PE、DiskGenius�
 
 将系统安装文件（ISO 可以使用 WinRar 解压）内 sources 下的 install.wim 和 boot.wim 复制到 fix 文件夹。
 
-### 集成驱动
+## 集成 USB3 驱动
 
 在 CMD 中依次运行如下命令（注意第8行 index：4 对应的是 Win7 Ultimate ，其他版本需修改）：
 
@@ -55,7 +53,7 @@ dism /unmount-wim /mountdir:mount /commit
 
 成功运行所有命令后，将 fix 下新生成的 install.wim 和 boot.wim 和其他系统安装文件一起复制到 U 盘任意文件夹备用。
 
-## 使用「 Windows 安装器」安装系统
+## 使用 Windows 安装器 安装系统
 
 MBA 插上 U 盘，启动后按住 option 键直至出现启动选择界面，选择 U 盘启动（显示为 Windows 之类）。
 
@@ -69,7 +67,7 @@ MBA 插上 U 盘，启动后按住 option 键直至出现启动选择界面，�
 
 （Win7 系统安装完成后）运行 U 盘上之前复制的 Boot Camp，会自动安装所有驱动。另外可点击任务栏图标中的 Boot Camp 进入控制面板设置，勾选「键盘」-「将 F1、F2 等键用作标准功能键」和「触控板辅助单击」（右下角）。
 
-## 使用易数一键还原建立备份系统
+## 使用易数一键还原建立恢复系统
 
 （建立傻瓜恢复系统是装系统、修电脑工作的重中之重）
 
