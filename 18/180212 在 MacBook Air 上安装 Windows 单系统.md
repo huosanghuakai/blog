@@ -8,10 +8,7 @@ Win7 官方安装文件未集成 USB3 驱动，需额外添加（不添加似乎
 
 ### 准备 U 盘
 
-- 6G 左右可用空间 U 盘（放系统安装文件和 Boot Camp 安装文件）
-
-
-- U 盘启动工具（带 Win8 以上 PE、DiskGenius、Windows 安装器）
+U 盘需已定制常规 Windows 启动工具（带 Win8 以上 PE、DiskGenius、Windows 安装器），另剩余可用空间 6G 左右，储存系统安装文件和 Boot Camp 安装文件。
 
 ### 下载 Boot Camp
 
