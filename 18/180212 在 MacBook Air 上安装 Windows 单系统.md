@@ -8,11 +8,11 @@ U 盘需已定制常规 Windows 启动工具（带 Win8 以上 PE、DiskGenius�
 
 ## 下载 Boot Camp
 
-在 [官方页面]( https://support.apple.com/zh-cn/boot-camp) 下载对应型号的 Boot Camp 解压至 U 盘备用（注意选择目标系统后查询兼容性表格，确认笔记本型号与目标系统兼容，例如本文型号为「 13 英寸，2013 年中」，可以安装 Windows7 64 位）
+在 [官方页面]( https://support.apple.com/zh-cn/boot-camp) 下载对应型号的 Boot Camp 解压至 U 盘备用（注意选择目标系统后查询兼容性表格，确认笔记本型号与目标系统兼容，例如本文 MBA 型号为「 13 英寸，2013 年中」，可装 Windows7 64 位）
 
 ## 准备待处理文件
 
-Win7 官方安装文件未集成 USB3 驱动，需额外添加（不添加似乎会导致键盘和触控板失效卡在 Windows 安装界面）
+Win7 官方安装文件未集成 USB3 驱动，需额外添加（否则 Windows 安装会因为键盘和触控板失效无法进行）
 
 在其他电脑（似乎必须，后面用到的 dism 命令需要完整的 Win7 以上系统支持，PE 不行）新建任意文件夹（假定为 `D:\fix\`），在其中新建 usb3 和 mount 文件夹（名称涉及后续命令）。
 
@@ -55,7 +55,7 @@ dism /unmount-wim /mountdir:mount /commit
 
 ## 使用 Windows 安装器 安装系统
 
-MBA 插上 U 盘，启动后按住 option 键直至出现启动选择界面，选择 U 盘启动（显示为 Windows 之类）。
+MBA 插上 U 盘，启动后按住 option 键直至出现启动选择界面，选择 U 盘启动（显示为 Windows 之类），进入 WinPE。
 
 使用 DiskGenius 重新分区（删除所有分区再新建，快速分区比较方便，文件系统均设置为 NTFS），并且切换到 MBR 引导（「硬盘」 - 「转换分区表类型为 MBR 格式」）。
 
