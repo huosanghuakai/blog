@@ -1,6 +1,6 @@
 #自己动手增强 EyeDefender（番茄钟定时展现随机壁纸）
 
-EyeDefender 是一款很赞的、美观的、可以默默的提示番茄工作法的、保护视力预防近视……的 windows 软件，但美中不足的是它只能固定展示一张图片，对此折腾控显然无法满意，继续祭出批处理神器。
+EyeDefender 能以番茄钟形式定时展示全屏壁纸，但美中不足的是只能选择固定图片，对比 Chrome 上的 Flickr Tab 和 Unsplash Instant 不免相形见绌，好在仍然可以通过批处理命令手动增强。
 
 ##功能
 
@@ -20,13 +20,13 @@ ws.run "helloworld.bat /start",0
 @echo off 
 :main
 setlocal enabledelayedexpansion 
-for %%a in (d:\pic\*.jpg) do set/a "n+=1" & set "jpg!n!=%%a" 
+for %%a in (d:\\pic\\*.jpg) do set/a "n+=1" & set "jpg!n!=%%a" 
 set/a "a=%random%%%!n!+1" 
-copy /y "!jpg%a%!" "d:\pic\eyedefender\0.jpg" 
+copy /y "!jpg%a%!" "d:\\pic\\eyedefender\\0.jpg" 
 ping -n 1800 127.1>nul
 goto main
 ```
-（如果你和我一样同为代码盲）记得将代码中的 ```d:\pic\``` 修改为自己的图片文件夹目录，将 ```d:\pic\eyedefender\0.jpg``` 修改为自己的展示图片位置，并在 EyeDefender 中指定。```1800``` 为设定更换图片时间，例如番茄钟设定为 28-2 30分钟的话1800秒刚好。
+（如果你和我一样同为代码盲）记得将代码中的 ```d:\\pic\\``` 修改为自己的图片文件夹目录，将 ```d:\\pic\\eyedefender\\0.jpg``` 修改为自己的展示图片位置，并在 EyeDefender 中指定。```1800``` 为设定更换图片时间，例如番茄钟设定为 28-2 30分钟的话1800秒刚好。
 
 ##其他
 
