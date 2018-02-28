@@ -18,4 +18,4 @@ Failed to remove item 18481 from reindex queue, error: LINK_ATTR_NOT_FOUND
 
 ## 解决
 
-清除原数据库（将 Databases 文件夹改名最简单稳妥），重新同步全部笔记。（同步时间还好，4000 条笔记近 1G 大小的数据库用时 13 分钟）
+清除原数据库（将 Databases 文件夹改名最简单稳妥），重新同步全部笔记。（同步时间还好，5000 条笔记近 1G 大小的数据库用时 13 分钟）
