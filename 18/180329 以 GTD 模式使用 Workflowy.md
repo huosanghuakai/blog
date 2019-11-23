@@ -71,10 +71,11 @@ Workflowy 支持标签自动补全，~~但仅限英文符号状态（英文输�
 Stylus 添加 CSS
 
 ```css
-.notes .content {
-    height: auto !important; 
-    overflow: visible !important;
-    display: block !important; 
+.notes > .content {
+  height: auto !important;
+  display: block !important;
+  -webkit-line-clamp: none !important;
+  max-height: none !important;
 }
 ```
 
