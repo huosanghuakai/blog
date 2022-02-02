@@ -1,6 +1,8 @@
+# 使用 Dell Mobile Connect 在 PC 上使用手机
+
 严格来说，是使用（最新版本，目前 v4.1） Dell Mobile Connect 在（任意非 Dell 的 Windows 10）PC 上使用手机（包括 iPhone）（接打电话、接发消息、接收通知）
 
-# 安装
+## 安装
 
 （非 Dell PC）直接在 Microsoft Store 中安装 Dell Mobile Connect 会提示 「此设备不满足安装软件的最低要求」
 
@@ -17,21 +19,21 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Store" /v 
 
 即可（安装）运行 Dell Mobile Connect
 
-# 其他
+## 其他
 
-## 程序版本
+### 程序版本
 
 注意，网上的帖子大多说的是老版本的 Dell Mobile Connect，实际上（按照本文操作）最新的 Store 版本是可以在非 Dell 电脑上正常运行的
 
-## 设备连接
+### 设备连接
 
 连接失败多尝试几次（正确连接后 PC 上可浏览手机上的通讯录，可以看到手机的电量）
 
-## 设备更换
+### 设备更换
 
 似乎因为程序设计的原因，手机更换连接 PC 后无法通过 PC 主动拨号发消息，但仍可被动接受手机电话和通知
 
-## 程序 后台
+### 程序 后台
 
 程序关闭后，一台电脑托盘中有图标，一台没有，但不影响使用
 

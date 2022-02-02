@@ -1,4 +1,4 @@
-Markdown 中的表格宽度调整和居中设置
+# Markdown 中的表格宽度调整和居中设置
 
 Markdown 通过各种方式转换为 html 后表格单元列宽度会无法控制（例如本 blog 使用的 Mytory for Wordpress 方案
 
