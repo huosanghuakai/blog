@@ -77,23 +77,14 @@ Pandoc 帮助上还有 `{.column width="40%"}` 这种宽度语法，实际上对
 
 
 
-**PPT 神器 Pandoc**                                                                     
-
-——————————————————————————————————————————————
+<u>**PPT 神器 Pandoc　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　**</u>
 
 **背景** 嗯，标题没写没错，当然副标题应该是“使用 Pandoc 将 Markdown 转换为 PPTX ”，之所以说 PPTX
 
 ……
 
-**用法** 唠叨这么多，接下来终于轮到主角登场。Pandoc，可以基于特定语法直接将 Markdown 转换为 PPT 文件，更赞的是可以指定 PPT 转换模板
 
-……
-
-
-
-
-
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　**@Cloudlet**
+<p align="right"><b>@Cloudlet</b></p>
 
 
 
@@ -103,11 +94,9 @@ Pandoc 帮助上还有 `{.column width="40%"}` 这种宽度语法，实际上对
 
 
 
-**背景**
-——————————————————————————————————————————————————
+<u>**PPT 神器 Pandoc　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　**</u>　　　　
 
-
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　**@Cloudlet**
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　<p align="right"><b>@Cloudlet</b></p>
 
 
 
