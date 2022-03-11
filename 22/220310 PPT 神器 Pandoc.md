@@ -107,7 +107,7 @@ Pandoc 帮助上还有 `{.column width="40%"}` 这种宽度语法，实际上对
 
 这里还要特别强调，作为（曾经）熟读 《写给大家看的PPT设计书》（似乎）精通设计四原则的我设计出来的版式都是做到了左右对齐的，只是限于条件限制无法在页面上精确展示，嗯……
 
-总之，通过上述种种设置（偷懒），基本做到 Markdown 写好，PPT 完成。当然，需要图片的地方还要加图片，不过依然可以不考虑布局或者说直接使用固定布局…（提示，此处是重复原则的重复应用）。
+总之，通过上述种种设置（偷懒），基本能够做到 「Markdown 写好，PPT 完成」。当然，需要图片的地方还要加图片，不过依然可以不考虑布局或者说直接使用固定布局…（提示，此处是重复原则的重复应用）。
 
 
 
@@ -144,7 +144,7 @@ SetTitleMatchMode Regex
         run, c:\cloudlet.info\MD2PPT.bat,  c:\cloudlet.info\
 
         ; 重新打开新生成的 PPT
-        run c:\N\wor\ppt\output.pptx
+        run c:\cloudlet.info\output.pptx
 
         return
     }
