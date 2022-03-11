@@ -77,7 +77,7 @@ Pandoc 帮助上还有 `{.column width="40%"}` 这种宽度语法，实际上对
 
 
 
-<u>**PPT 神器 Pandoc　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　**</u>
+<u>**PPT 神器 Pandoc　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　**</u>
 
 **背景** 嗯，标题没写没错，当然副标题应该是“使用 Pandoc 将 Markdown 转换为 PPTX ”，之所以说 PPTX
 
