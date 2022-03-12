@@ -6,32 +6,23 @@
 （先盘点下个人觉得比较重要的 Cent Browser 的独特功能）
 
 - 字体渲染，支持关闭 Directwrite（从而支持 Mactype 渲染）
-
 - 自定义样式，系统级支持自定义 custom.css
-
 - 支持调用 IDM 并且支持热键临时禁用 IDM（使用内置下载）
-
 - 自动显示隐藏书签栏
-
 - 隐藏标签页关闭按钮
-
 - 双击关闭标签页
-
 - 支持书签栏悬停切换（打开书签栏一个文件夹后，鼠标移动到其他文件夹上能自动打开）
-
-- 内置的鼠标手势和超级拖拽，特别是鼠标手势的「下一页（论坛）」功能
-
+- 内置鼠标手势和超级拖拽，好用的「下一页（论坛）」手势和还算好用的添加书签手势
+- （缺点）鼠标手势略简单，没有三段手势
 - （缺点）一年多没更新了
-
-- （缺点）鼠标手势略简单
 
 ## Catsxp 
 
-虽然六年过去，市面上不乏大牌靠谱的 Edge（大声朗读完美）、Brave（据说安全隐私强）、Vivaldi ，但是定制性方面习惯了 Cent Browser 的用户很难适应，近期在 Cent 习惯性断更又习惯性的搜索之后 ，发现了猫眼浏览器 Catsxp （v2.3.4），尝试了下
+虽然六年过去，市面上不乏大牌靠谱的 Edge（大声朗读完美）、Brave（据说安全隐私强）、Vivaldi ，但是定制性方面习惯了 Cent Browser 的用户很难适应一般浏览器，近期在 Cent 习惯性断更又习惯性的搜索之后 ，发现了猫眼浏览器 Catsxp （v2.3.4），尝试了下，感觉如下：
 
 - （没法关闭 Directwrite）字体渲染部分只能使用 Mactype 助手勉强解决页面部分的字体渲染，但页面以外，如标签栏、书签栏、系统界面都无能为力
 
-- 没法系统级的支持 custom.css
+- 没有系统级的支持 custom.css
 
 - 调用下载工具功能实测无效
 
@@ -51,6 +42,6 @@
 
 ## 最后
 
-最后……还是继续坚持 Cent Browser，整体协调的外观还是太重要了……希望 Catsxp 能够超越 Cent Browser，如果能够提供 GDI 支持（禁用 Directwrite） 就可以马上弃暗投明了……
+最后……还是继续坚持 Cent Browser，整体协调的外观还是太重要了……希望 Catsxp 能够尽快超越 Cent Browser，当然如果能够提供 GDI 支持（禁用 Directwrite） 就可以马上弃暗投明了……
 
-顺便，只对字体渲染有执念而对定制性没有要求的话，可以考虑[GDIChromium](https://github.com/GTANAdam/GDIChromium)（仅为 Chromium 增加了 GDI 支持，无其他修改）
+顺便，只对字体渲染有执念而对定制性没有要求的话，可以考虑 [GDIChromium](https://github.com/GTANAdam/GDIChromium)（仅为 Chromium 增加了 GDI 支持，无其他修改）
