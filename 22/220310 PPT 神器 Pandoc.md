@@ -107,7 +107,7 @@ Pandoc 帮助上还有 `{.column width="40%"}` 这种设定宽度的语法，但
 
 这里还要特别强调，作为（曾经）熟读 《写给大家看的PPT设计书》（似乎）精通设计四原则的我设计出来的版式都是做到了左右对齐的，只是限于条件限制无法在页面上精确展示，另外基于视觉平衡单栏页面的文本框宽度可以设定为页面宽度的61.8%（没错，黄金分割率的忠实践行）……
 
-总之，通过上述种种设置（偷懒），基本能够做到 「Markdown 写好，PPT 完成」。当然，需要图片的地方还要加图片，不过依然可以不考虑布局或者说直接使用固定布局…（提示，此处是重复原则的重复应用）。
+总之，通过上述种种设置/偷懒，基本能够做到 「Markdown 写好，PPT 完成」。当然，需要图片的地方还要加图片，不过依然可以不考虑布局或者说直接使用固定布局（提示，此处是重复原则的重复应用）。
 
 
 
@@ -120,7 +120,7 @@ Pandoc 帮助上还有 `{.column width="40%"}` 这种设定宽度的语法，但
 MD2PPT.bat （也可以直接在 CMD 中直接运行代码）
 
 ```bat 
-pandoc --reference-doc=c:\cloudlet.info\reference.pptx  input.md -o output.pptx
+pandoc --reference-doc=c:\\cloudlet.info\\reference.pptx  input.md -o output.pptx
 ```
 
 ### AHK 调试脚本
@@ -141,10 +141,10 @@ SetTitleMatchMode Regex
         send ^w  
 
         ; 执行转换脚本
-        run, c:\cloudlet.info\MD2PPT.bat,  c:\cloudlet.info\
+        run, c:\\cloudlet.info\\MD2PPT.bat,  c:\\cloudlet.info\\
 
         ; 重新打开新生成的 PPT
-        run c:\cloudlet.info\output.pptx
+        run c:\\cloudlet.info\\output.pptx
 
         return
     }
