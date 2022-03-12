@@ -141,7 +141,7 @@ SetTitleMatchMode Regex
         send ^w  
 
         ; 执行转换脚本
-        run, c:\\cloudlet.info\\MD2PPT.bat,  c:\\cloudlet.info\\
+        run, c:\\cloudlet.info\\MD2PPT.bat,  c:\\cloudlet.info
 
         ; 重新打开新生成的 PPT
         run c:\\cloudlet.info\\output.pptx
