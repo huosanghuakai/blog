@@ -1,4 +1,4 @@
-# Evernote 笔记批量转入 Logseq 简易指南 
+# Evernote 笔记批量转入 Logseq 简易指北
 
 （折腾完才发现 Yarle 可以直接将 ENEX 转换为支持 Logseq 的markdown，定制项还比较多，当然也相对复杂，推荐使用Yarle而非 本文的 Joplin 转换……）
 
