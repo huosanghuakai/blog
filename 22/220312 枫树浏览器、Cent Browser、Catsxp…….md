@@ -1,5 +1,13 @@
 # 枫树浏览器、Cent Browser、Catsxp……
-转眼又是六年（[什么样的壳浏览器才是好的壳浏览器](https://cloudlet.info/t/369)），枫树浏览器之后，又需要寻找百分浏览器的替代者了……
+（**220801 UPDATE **
+
+ **Cent Browser 更新！！！**又能再战三年？……
+
+目前 Catsxp 的 Mactype 渲染聊胜于无， GDIChromium 的有等于无……，其他功能更是完全被 Cent 碾压，特别是设置同步，下文没必要看了……）
+
+---
+
+~~转眼又是六年（[什么样的壳浏览器才是好的壳浏览器](https://cloudlet.info/t/369)），枫树浏览器之后，又需要寻找百分浏览器的替代者了……~~
 
 ## Cent Browser 
 
