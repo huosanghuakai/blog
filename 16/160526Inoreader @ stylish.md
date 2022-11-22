@@ -3,18 +3,12 @@
 在和 Feedly 的鏖战中，Inoreader 的界面恐怕是最大的失分项，网上能找到的样式稀少且大多不适用，只好自己动手，东拼西凑的弄出了一个还能用的样式。
 
 # 说明：
-
 - Inoreader 的左栏宽度是可以自行调整的，在订阅源右侧齿轮-左栏宽度中
-
 - 使用本样式前，请先调整为列表视图
-
 - 本样式会隐藏顶部导航条导致无法全局搜索，不想隐藏顶部导航条可删除相应代码
-
 - 本样式适配 1920 1080 与 1440 900 分辨率，其他分辨率效果不详
-
 - 因为技术原因或者 css 本身的机制问题，Inoreader 弹出消息后版面会出现小问题，关闭样式后关闭消息面板即可
-
-  # 代码
+# 代码
 
 ```
 
@@ -91,17 +85,17 @@
  {width: 400px !important;}
 
  .article_short_contents 
-  {opacity: 0 !important;}
+{opacity: 0 !important;}
 
-  img {max-width: 576px !important}
+img {max-width: 576px !important}
 
 /*link color*/
 .bluelink:visited {
-    color: #444 !important;
+  color: #444 !important;
 }
 
 .bluelink:link {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 .bluelink:visited,.bluelink:link {
