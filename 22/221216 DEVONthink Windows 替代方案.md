@@ -3,7 +3,7 @@ DEVONthink 是一款自称专业文件知识信息管理库工具软件，Mac �
 
 ## 文档管理
 
-**Zotero（组织） + Anytext searcher（全文搜索）**
+**Zotero（组织） + Logseq（标注索引） + Anytext searcher（全文搜索）**
 
 Zotero 配合 ZotFile（插件）坚果云可以实现文档材料的基本管理（以及云同步），提供简单的组织功能，如分类、标签、索引（聊胜于无），主要针对工作文档（非文献）
 
