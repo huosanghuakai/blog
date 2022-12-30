@@ -17,23 +17,22 @@
 $F1:: 
 Loop, 16
 {
-    send, {esc}
-    sleep,500
-    send,{down}
-    sleep,500
-    send {enter}
-    Sleep, 500
-    Send, {CTRLDOWN}{END}{CTRLUP}
-    sleep,100
-    send {enter}
-    sleep,100
-    send {enter}
-    sleep,100
-    send, %Clipboard%
+  send, {esc}
+  sleep,500
+  send,{down}
+  sleep,500
+  send {enter}
+  Sleep, 500
+  Send, {CTRLDOWN}{END}{CTRLUP}
+  sleep,100
+  send {enter}
+  sleep,100
+  send {enter}
+  sleep,100
+  send, %Clipboard%
 }
 return
 
 ;F2 中止脚本，防止误操作
 $F2::reload 
 ```
-
